@@ -4,6 +4,8 @@
 
 R Shiny Applications are listed below. Click the links for more information!
 
+<br>
+
 **lrd: Lexical Response Data**
 
 *lrd* provides functions for automatically scoring lexical data from cued-recall and free-recall studies.
