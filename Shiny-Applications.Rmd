@@ -1,5 +1,7 @@
 # Shiny Applications 
 
+<br>
+
 R Shiny Applications are listed below. Click the links for more information!
 
 **lrd: Lexical Response Data**
@@ -9,6 +11,8 @@ R Shiny Applications are listed below. Click the links for more information!
   + [Application](https://npm27.shinyapps.io/lrd_shiny/)
   + [Tutorial](https://www.macapsych.com/lexical-re)
   + [Paper](https://link.springer.com/article/10.3758/s13428-021-01718-y)
+
+<br>
 
 **Affordance Norms**
 
