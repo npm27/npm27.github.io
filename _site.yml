@@ -1,8 +1,20 @@
-name: "my-website"
+name: "Yay internet!"
+output_dir: "."
 navbar:
-  title: "My Website"
-left:
-  - text: "Home"
-href: index.html
-- text: "About"
-href: about.html
+  title: "Home"
+  right:
+    - text: "Research"
+      href: research.html
+    - text: "Teaching"
+      href: teaching.html
+    - text: "Shiny Applications"
+      href: shiny.html
+    - icon: fa-envelope fa-lg
+      href: mailto:<nicholas.maxwell@msutexas.ed>
+    - icon: fa-solid fa-file
+      href: docs/Maxwell CV 8_22_23.pdf
+    - icon: fa-github fa-lg
+      href: http://github.com/npm27/
+output:
+  html_document:
+    theme: cerulean

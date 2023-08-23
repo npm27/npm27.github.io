@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Research.knit</title>
+
+<script src="site_libs/header-attrs-2.21/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-6.4.0/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.0/css/v4-shims.min.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="research.html">Research</a>
+</li>
+<li>
+  <a href="teaching.html">Teaching</a>
+</li>
+<li>
+  <a href="shiny.html">Shiny Applications</a>
+</li>
+<li>
+  <a href="mailto:&lt;nicholas.maxwell@msutexas.ed&gt;">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="docs/Maxwell CV 8_22_23.pdf">
+    <span class="fa fa-solid fa-file"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="http://github.com/npm27/">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+
+</div>
+
+
+<div id="research" class="section level1">
+<h1>Research</h1>
+<div id="current-areas-of-emphasis" class="section level3">
+<h3>Current Areas of Emphasis</h3>
+<p><strong>Metacognitive Illusions:</strong> A common finding in
+metamemory research is that individuals will often overestimate their
+ability to remember studied information on a later test. My research in
+this area seeks to understand factors driving this effect. One method
+for studying is this is to have participants make Judgments of Learning
+(JOLs) while they study, which reflect the likelihood that participants
+will correctly recall information on a later test. Memory accuracy can
+then be easily assessed by comparing predicted recall (assessed via
+JOLs) with later test performance. Overall, when participants study
+cue-target word pairs, JOLs are generally accurate, particularly when
+pairs are related (e.g., credit-card). However, flipping the pair order
+results an marked overestimation effect dubbed the illusion of
+competence (e.g. backward cue-target associates like card-credit; see
+Koriat &amp; Bjork, 2005; Journal of Experimental Psychology: Learning,
+Memory, and Cognition). My work in this area has sought to explore
+boundary conditions for the illusion of competence by manipulating JOL
+timing (immediate vs. delayed JOLs) and the types of study materials
+(e.g., symmetrical cue-target pairs like on-off which are strongly
+related regardless of pair order). Additionally, my work explores
+whether deep encoding strategies (e.g., item-specific and relational
+encoding) can reduce the illusion of competence by either lowering JOLs
+to be inline with later recall or improving recall to match
+participants’ inflated JOLs. Current projects in my lab are
+investigating whether brief mindfulness interventions can effectively
+improve the accuracy of metamemory judgments.</p>
+<p><strong>Judgment of Learning Reactivity:</strong> Because much my
+work involves having participants rate their ability to remember items
+while studying, I am particularly interested in whether the act of
+judging one’s memory at study effects individuals’ ability to remember
+items. Recent work suggests that JOLs are indeed reactive on memory,
+such that making these judgments facilitates later remembering, but only
+under certain conditions (i.e., when participants study related but not
+unrelated word pairs; see Soderstrom et al., 2015; Journal of
+Experimental Psychology: Learning, Memory, and Cognition). Because
+cue-target relations moderate JOL reactivity, my work explores the
+degree to which relational encoding contributes to reactivity effects.
+As such, my work has tested for JOL reactivity on various types of
+related and unrelated cue target pairs, including backward and
+symmetrical pairs, and recently, mediated associates (e.g., stripes –
+lion), which appear unrelated at encoding but are linked via
+non-presented item. Current lab projects are continuing to explore a
+relational account of reactivity while also investigating whether
+reactivity observed with lab-generated materials extends to educational
+materials.</p>
+<p><strong>Norming lexical Properties:</strong> While I am primarily
+interested in exploring learning and memory, much of my work involves
+presenting participants with lexical stimuli (e.g., word pairs), which
+they are later tested on. For studies using words as stimuli, it is
+critical to have accurate measure of word properties to ensure both the
+validity and replicability of this research. As such, I assisted with
+the development of a set of semantic feature production norms, which
+allow for measurement of similarity between concepts (Buchanan,
+Valentine, &amp; Maxwell, 2019; Behavior Research Methods). Currently, I
+am spearheading the development of a set of norms which capture
+perceptual affordances (i.e., actionable properties of objects). Because
+object use is an important component of meaning, it is important to have
+an accurate understanding of the various ways individuals perceive they
+can interact with a given object. However, current measures of meaning
+have focused more on semantic features and related concepts, rather than
+explicitly focusing on use-based meaning. When completed, this project
+will result in a database of affordance norms for 2825 concrete nouns
+and will provide a starting point for investigating how affordances
+influence meaning and knowledge acquisition.</p>
+</div>
+<div id="publications" class="section level3">
+<h3>Publications</h3>
+<div style="text-indent: -40px; padding-left: 40px;">
+<p>Maxwell, N. P. &amp; Huff, M. J. (2023). Is discriminability a
+requirement for reactivity? Comparing the effects of mixed vs. pure list
+presentations on judgment of learning reactivity. Memory &amp;
+Cognition, 51(5), 1198-1213. Available at: <a
+href="https://osf.io/3fztn/" class="uri">https://osf.io/3fztn/</a></p>
+<p>Huff, M.J., Maxwell, N. P., &amp; Mitchell, A. (2022). Distinctive
+Sans Forgetica font does not benefit memory accuracy in the DRM
+paradigm. Cognitive Research: Principles and Implications, 7(102), 1-12.
+Available at: <a href="https://osf.io/am5rb/"
+class="uri">https://osf.io/am5rb/</a></p>
+<p>Maxwell, N. P. &amp; Huff, M. J. (2022). Reactivity from judgments of
+learning is not only due to memory forecasting: Evidence from
+associative memory and frequency judgments. Metacognition and Learning,
+17(2), 589-625. Available at: <a href="https://osf.io/8yvn3/"
+class="uri">https://osf.io/8yvn3/</a></p>
+<p>Maxwell, N. P., Huff, M. J., &amp; Buchanan, E. M. (2022). The lrd
+package: An R package and Shiny application for processing lexical
+response data. Behavior Research Methods, 54(4), 2001-2024. Available
+at: <a href="https://osf.io/admyx/"
+class="uri">https://osf.io/admyx/</a></p>
+<p>Maxwell, N. P., Perry, T., &amp; Huff, M. J. (2022). Perceptually
+fluent features of study words do not inflate judgments of learning:
+Evidence from font size, highlights, and Sans Forgetica font type.
+Metacognition and Learning, 17(2), 293-319. Available at: <a
+href="https://osf.io/3xwdr/" class="uri">https://osf.io/3xwdr/</a>.</p>
+<p>Namias, J. M., Huff, M. J., Smith, A., &amp; Maxwell, N. P. (2022).
+Drawing individual images benefits recognition accuracy in the DRM
+paradigm. Quarterly Journal of Experimental Psychology, 75(8),
+1571-1582. Available at: <a href="https://osf.io/r4yh9/"
+class="uri">https://osf.io/r4yh9/</a></p>
+<p>Maxwell, N. P. &amp; Huff, M. J. (2021). The deceptive nature of
+associative word pairs: Effects of associative direction on judgments of
+learning. Psychological Research, 85, 1757-1775. Available at: <a
+href="https://osf.io/hvdma/" class="uri">https://osf.io/hvdma/</a>.</p>
+<p>Maxwell, N. P. &amp; Buchanan, E. M. (2020). Investigating the
+interaction of direct and indirect relation on memory judgments and
+retrieval. Cognitive Processing, 21(1), 41-53. Available at <a
+href="https://osf.io/fcesn/" class="uri">https://osf.io/fcesn/</a></p>
+<p>Bowman, N. A., Miller, A., Woosley, S., Maxwell, N. P., &amp; Kolze,
+M. J. (2019). Understanding the link between noncognitive attributes and
+college retention. Research in Higher Education 60(2), 135-152.
+Available at: <a
+href="https://link.springer.com/article/10.1007/s11162-018-9508-0"
+class="uri">https://link.springer.com/article/10.1007/s11162-018-9508-0</a></p>
+<p>Buchanan, E. M., Valentine, K. D., &amp; Maxwell, N. P. (2019).
+English semantic feature production norms: An extended database of 4,436
+concepts. Behavior Research Methods, 51(4), 1849-1863. Available at: <a
+href="https://osf.io/cjyzw/" class="uri">https://osf.io/cjyzw/</a></p>
+<p>Buchanan, E. M., Valentine, K. D., &amp; Maxwell, N. P. (2019). LAB:
+Linguistic annotated bibliography – A searchable portal for normed
+database information. Behavior Research Methods, 51(4), 1878 – 1888.
+Available at: <a href="https://osf.io/9bcws/"
+class="uri">https://osf.io/9bcws/</a></p>
+<p>Pavlacic, J. M., Buchanan, E. M., Maxwell, N. P., Hopke, T., &amp;
+Schulenberg, S. E. (2019). A meta-analysis of expressive writing on
+positive psychology variables and traumatic stress. Review of General
+Psychology, 23(2), 230-250. Available at: <a
+href="https://journals.sagepub.com/doi/pdf/10.1177/1089268019831645"
+class="uri">https://journals.sagepub.com/doi/pdf/10.1177/1089268019831645</a></p>
+</div>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
