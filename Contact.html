@@ -13,7 +13,7 @@
 
 <title>Contact.knit</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.21/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
@@ -30,8 +30,8 @@
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.0/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.0/css/v4-shims.min.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -132,11 +132,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -165,8 +169,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -174,16 +178,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -240,10 +237,10 @@ $(document).ready(function () {
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
-  <a href="research.html">Research</a>
+  <a href="Research.html">Research</a>
 </li>
 <li>
-  <a href="teaching.html">Teaching</a>
+  <a href="Teaching.html">Teaching</a>
 </li>
 <li>
   <a href="Shiny-Applications.html">Shiny Applications</a>
@@ -278,12 +275,19 @@ $(document).ready(function () {
 
 <div id="contact" class="section level1">
 <h1>Contact</h1>
+<p><br></p>
 <p>I’m always happy to chat! If you are interested in collaborating,
 want to request stimuli, papers, etc., or just want to chat science,
 feel free to reach out! (<a href="mailto:nicholas.maxwell@msutexas.edu"
-class="email">nicholas.maxwell@msutexas.edu</a>).</p>
+class="email">nicholas.maxwell@msutexas.edu</a>). Most of my research
+materials are openly available via <a
+href="https://osf.io/uxdvh/">OSF</a></p>
 <div id="for-students" class="section level2">
 <h2>For students:</h2>
+<p>Are you a potential graduate student interested in the
+clinical/counseling MA at MSU Texas? You can check out the program
+requirements <a
+href="https://msutexas.edu/academics/libarts/psychology/ma/">here</a>.</p>
 <p>If you are a current MSU Texas undergraduate student interested in
 doing memory research with me, please download this form and fill it
 out. Email it back to me along with a copy of your resume.</p>
