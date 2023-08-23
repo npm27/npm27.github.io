@@ -17,8 +17,8 @@ navbar:
       href: http://github.com/npm27/
 output:
   html_document:
-    theme: flatly
     css: style.css
+    theme: flatly
     highlight: tango
     toc: false
     toc_float: false
