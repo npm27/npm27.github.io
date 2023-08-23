@@ -1,6 +1,10 @@
 # Welcome!
 
-<img src="images/me!.jpg" style="width:10%">
+<br>
+
+<img src="images/me!.jpg" style="width:12.5%">
+
+<br>
 
 Hello! I’m Nicholas Maxwell. I’m currently an Assistant Professor of Psychology at [Midwestern State University](https://www.msutexas.edu) in Wichita Falls, TX where I lead the Memory, Metamemory, and Learning lab. Prior to joining the faculty at MSU Texas, I received my MS in Experimental Psychology from [Missouri State University](https://www.missouristate.edu/) and completed my doctoral training in Cognitive Psychology at the University of [Southern Mississippi](https://www.usm.edu/) in 2022. I also have a BA in psychology from [Mississippi State University](https://www.msstate.edu). Too many MSU's, I know!
 
