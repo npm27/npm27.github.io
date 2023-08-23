@@ -4,9 +4,9 @@ navbar:
   title: "Home"
   right:
     - text: "Research"
-      href: research.html
+      href: Research.html
     - text: "Teaching"
-      href: teaching.html
+      href: Teaching.html
     - text: "Shiny Applications"
       href: Shiny-Applications.html
     - text: "Contact"
