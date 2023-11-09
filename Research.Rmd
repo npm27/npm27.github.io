@@ -16,6 +16,8 @@
 
 <div style="text-indent: -40px; padding-left: 40px;">
 
+Maxwell, N. P., Cates, E. E., & Huff, M. J. (In Press). Item-specific and relational encoding are effective at reducing the illusion of competence. Psychological Research, 1-22. Available at: https://osf.io/x9n4f/
+
 Maxwell, N. P. & Huff, M. J. (2023). Is discriminability a requirement for reactivity? Comparing the effects of mixed vs. pure list presentations on judgment of learning reactivity. Memory & Cognition, 51(5), 1198-1213. Available at: https://osf.io/3fztn/
 
 Huff, M.J., Maxwell, N. P., & Mitchell, A. (2022). Distinctive Sans Forgetica font does not benefit memory accuracy in the DRM paradigm. Cognitive Research: Principles and Implications, 7(102), 1-12. Available at: https://osf.io/am5rb/
