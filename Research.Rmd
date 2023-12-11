@@ -16,30 +16,32 @@
 
 <div style="text-indent: -40px; padding-left: 40px;">
 
-Maxwell, N. P., Cates, E. E., & Huff, M. J. (In Press). Item-specific and relational encoding are effective at reducing the illusion of competence. Psychological Research, 1-22. Available at: https://osf.io/x9n4f/
+Maxwell, N. P., Cates, E. E., & Huff, M. J. (In Press). Item-specific and relational encoding are effective at reducing the illusion of competence. *Psychological Research*, 1-22. Available at: https://osf.io/x9n4f/
 
-Maxwell, N. P. & Huff, M. J. (2023). Is discriminability a requirement for reactivity? Comparing the effects of mixed vs. pure list presentations on judgment of learning reactivity. Memory & Cognition, 51(5), 1198-1213. Available at: https://osf.io/3fztn/
+Maxwell, N. P. & Huff, M. J. (In Press). Judgment of learning reactivity reflects enhanced relational encoding on cued-recall but not recognition tests. *Metacognition and Learning*, 1-25. Available at: https://osf.io/mfbnz/
 
-Huff, M.J., Maxwell, N. P., & Mitchell, A. (2022). Distinctive Sans Forgetica font does not benefit memory accuracy in the DRM paradigm. Cognitive Research: Principles and Implications, 7(102), 1-12. Available at: https://osf.io/am5rb/
+Maxwell, N. P. & Huff, M. J. (2023). Is discriminability a requirement for reactivity? Comparing the effects of mixed vs. pure list presentations on judgment of learning reactivity. *Memory & Cognition, 51*(5), 1198-1213. Available at: https://osf.io/3fztn/
 
-Maxwell, N. P. & Huff, M. J. (2022). Reactivity from judgments of learning is not only due to memory forecasting: Evidence from associative memory and frequency judgments. Metacognition and Learning, 17(2), 589-625. Available at: https://osf.io/8yvn3/
+Huff, M.J., Maxwell, N. P., & Mitchell, A. (2022). Distinctive Sans Forgetica font does not benefit memory accuracy in the DRM paradigm. *Cognitive Research: Principles and Implications, 7*(102), 1-12. Available at: https://osf.io/am5rb/
 
-Maxwell, N. P., Huff, M. J., & Buchanan, E. M. (2022). The lrd package: An R package and Shiny application for processing lexical response data. Behavior Research Methods, 54(4), 2001-2024. Available at: https://osf.io/admyx/
+Maxwell, N. P. & Huff, M. J. (2022). Reactivity from judgments of learning is not only due to memory forecasting: Evidence from associative memory and frequency judgments. *Metacognition and Learning, 17*(2), 589-625. Available at: https://osf.io/8yvn3/
 
-Maxwell, N. P., Perry, T., & Huff, M. J. (2022). Perceptually fluent features of study words do not inflate judgments of learning: Evidence from font size, highlights, and Sans Forgetica font type. Metacognition and Learning, 17(2), 293-319. Available at: https://osf.io/3xwdr/.
+Maxwell, N. P., Huff, M. J., & Buchanan, E. M. (2022). The lrd package: An R package and Shiny application for processing lexical response data. *Behavior Research Methods, 54*(4), 2001-2024. Available at: https://osf.io/admyx/
 
-Namias, J. M., Huff, M. J., Smith, A., & Maxwell, N. P. (2022). Drawing individual images benefits recognition accuracy in the DRM paradigm. Quarterly Journal of Experimental Psychology, 75(8), 1571-1582. Available at: https://osf.io/r4yh9/
+Maxwell, N. P., Perry, T., & Huff, M. J. (2022). Perceptually fluent features of study words do not inflate judgments of learning: Evidence from font size, highlights, and Sans Forgetica font type. *Metacognition and Learning, 17*(2), 293-319. Available at: https://osf.io/3xwdr/.
 
-Maxwell, N. P. & Huff, M. J. (2021). The deceptive nature of associative word pairs: Effects of associative direction on judgments of learning. Psychological Research, 85, 1757-1775. Available at: https://osf.io/hvdma/.
+Namias, J. M., Huff, M. J., Smith, A., & Maxwell, N. P. (2022). Drawing individual images benefits recognition accuracy in the DRM paradigm. *Quarterly Journal of Experimental Psychology, 75*(8), 1571-1582. Available at: https://osf.io/r4yh9/
 
-Maxwell, N. P. & Buchanan, E. M. (2020). Investigating the interaction of direct and indirect relation on memory judgments and retrieval. Cognitive Processing, 21(1), 41-53. Available at https://osf.io/fcesn/
+Maxwell, N. P. & Huff, M. J. (2021). The deceptive nature of associative word pairs: Effects of associative direction on judgments of learning. *Psychological Research, 85*, 1757-1775. Available at: https://osf.io/hvdma/.
 
-Bowman, N. A., Miller, A., Woosley, S., Maxwell, N. P., & Kolze, M. J. (2019). Understanding the link between noncognitive attributes and college retention. Research in Higher Education 60(2), 135-152. Available at: https://link.springer.com/article/10.1007/s11162-018-9508-0
+Maxwell, N. P. & Buchanan, E. M. (2020). Investigating the interaction of direct and indirect relation on memory judgments and retrieval. *Cognitive Processing, 21*(1), 41-53. Available at https://osf.io/fcesn/
 
-Buchanan, E. M., Valentine, K. D., & Maxwell, N. P. (2019). English semantic feature production norms: An extended database of 4,436 concepts. Behavior Research Methods, 51(4), 1849-1863. Available at: https://osf.io/cjyzw/
+Bowman, N. A., Miller, A., Woosley, S., Maxwell, N. P., & Kolze, M. J. (2019). Understanding the link between noncognitive attributes and college retention. *Research in Higher Education 60*(2), 135-152. Available at: https://link.springer.com/article/10.1007/s11162-018-9508-0
 
-Buchanan, E. M., Valentine, K. D., & Maxwell, N. P. (2019). LAB: Linguistic annotated bibliography – A searchable portal for normed database information. Behavior Research Methods, 51(4), 1878 – 1888. Available at: https://osf.io/9bcws/
+Buchanan, E. M., Valentine, K. D., & Maxwell, N. P. (2019). English semantic feature production norms: An extended database of 4,436 concepts. *Behavior Research Methods, 51*(4), 1849-1863. Available at: https://osf.io/cjyzw/
 
-Pavlacic, J. M., Buchanan, E. M., Maxwell, N. P., Hopke, T., & Schulenberg, S. E. (2019). A meta-analysis of expressive writing on positive psychology variables and traumatic stress. Review of General Psychology, 23(2), 230-250. Available at: https://journals.sagepub.com/doi/pdf/10.1177/1089268019831645
+Buchanan, E. M., Valentine, K. D., & Maxwell, N. P. (2019). LAB: Linguistic annotated bibliography – A searchable portal for normed database information. *Behavior Research Methods, 51*(4), 1878 – 1888. Available at: https://osf.io/9bcws/
+
+Pavlacic, J. M., Buchanan, E. M., Maxwell, N. P., Hopke, T., & Schulenberg, S. E. (2019). A meta-analysis of expressive writing on positive psychology variables and traumatic stress. *Review of General Psychology, 23*(2), 230-250. Available at: https://journals.sagepub.com/doi/pdf/10.1177/1089268019831645
 
 </div>
