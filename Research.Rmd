@@ -16,9 +16,9 @@
 
 <div style="text-indent: -40px; padding-left: 40px;">
 
-Maxwell, N. P., Cates, E. E., & Huff, M. J. (In Press). Item-specific and relational encoding are effective at reducing the illusion of competence. *Psychological Research*, 1-22. Available at: https://osf.io/x9n4f/
+Maxwell, N. P., Cates, E. E., & Huff, M. J. (2024). Item-specific and relational encoding are effective at reducing the illusion of competence. *Psychological Research, 88*, 1023-1044. Available at: https://osf.io/x9n4f/
 
-Maxwell, N. P. & Huff, M. J. (In Press). Judgment of learning reactivity reflects enhanced relational encoding on cued-recall but not recognition tests. *Metacognition and Learning*, 1-25. Available at: https://osf.io/mfbnz/
+Maxwell, N. P. & Huff, M. J. (2024). Judgment of learning reactivity reflects enhanced relational encoding on cued-recall but not recognition tests. *Metacognition and Learning, 19*(1), 189-113. Available at: https://osf.io/mfbnz/
 
 Maxwell, N. P. & Huff, M. J. (2023). Is discriminability a requirement for reactivity? Comparing the effects of mixed vs. pure list presentations on judgment of learning reactivity. *Memory & Cognition, 51*(5), 1198-1213. Available at: https://osf.io/3fztn/
 
