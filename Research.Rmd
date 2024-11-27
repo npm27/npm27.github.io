@@ -16,7 +16,9 @@
 
 <div style="text-indent: -40px; padding-left: 40px;">
 
-Maxwell, N. P., Huff, M. J., Hajnal, A., Namias, J. M., Blau, J. J. C., Day, B., Marsh, K. M., Meagher, B. M., Shelley-Tremblay, J. F., Thomas, G. F., & Wagman, J. B. (In Press). Affordance norms for 2825 concrete nouns. *Behavior Research Methods*, 1-12. Available at: https://osf.io/68bkt/
+Maxwell, N. P., Huff, M. J., & Namias, J. M. (In Press). Predictive alternating runs and random task-switching sequences produce dissociative switch costs in the consonant-vowel/odd-even task. *Cognitive Processing*, 1-14. Available at: https://osf.io/hzwc4/ 
+
+Maxwell, N. P., Huff, M. J., Hajnal, A., Namias, J. M., Blau, J. J. C., Day, B., Marsh, K. M., Meagher, B. M., Shelley-Tremblay, J. F., Thomas, G. F., & Wagman, J. B. (2024). Affordance norms for 2825 concrete nouns. *Behavior Research Methods, 56*, 8480-8491. Available at: https://osf.io/68bkt/
 
 Maxwell, N. P., Cates,* E. E., & Huff, M. J. (2024). Item-specific and relational encoding are effective at reducing the illusion of competence. *Psychological Research, 88*, 1023-1044. Available at: https://osf.io/x9n4f/
 

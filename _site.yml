@@ -12,7 +12,7 @@ navbar:
     - text: "Contact"
       href: Contact.html
     - icon: fa-file-pdf-o
-      href: docs/Maxwell CV 8_24.pdf
+      href: docs/Maxwell CV 11_27_24.pdf
     - icon: fa-github fa-lg
       href: http://github.com/npm27/
 output:
