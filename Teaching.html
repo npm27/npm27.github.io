@@ -13,7 +13,7 @@
 
 <title>Teaching.knit</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.27/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
@@ -30,8 +30,8 @@
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -132,11 +132,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -165,8 +169,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -174,16 +178,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -252,7 +249,7 @@ $(document).ready(function () {
   <a href="Contact.html">Contact</a>
 </li>
 <li>
-  <a href="docs/Maxwell CV 8_22_23.pdf">
+  <a href="docs/Maxwell CV 11_27_24.pdf">
     <span class="fa fa-file-pdf-o"></span>
      
   </a>
@@ -284,14 +281,17 @@ cognition.</p>
 <p><strong>I have experience teaching the following
 courses:</strong></p>
 <ul>
+<li>Memory (<em>MSU Texas</em>, 2024)</li>
 <li>Cognition (<em>MSU Texas</em>, 2023)</li>
-<li>Psychological Tests and Evaluations (<em>MSU Texas</em>, 2023)</li>
-<li>Social Psychology (<em>MSU Texas</em>, 2023)</li>
+<li>Psychological Tests and Evaluations (<em>MSU Texas</em>, 2023 -
+Present)</li>
+<li>Social Psychology (<em>MSU Texas</em>, 2023, 2025)</li>
 <li>Research Methods for the Behavioral Sciences (<em>MSU Texas</em>,
-2023)</li>
+2023 - Present)</li>
 <li>Writing in Psychology (<em>MSU Texas</em>, 2022 – Present)</li>
 <li>Developmental Psychology (<em>MSU Texas</em>, 2022 – Present)</li>
-<li>Introductory Psychology (<em>MSU Texas</em>, 2022)</li>
+<li>Introductory Psychology (<em>MSU Texas</em>, 2022, 2024 -
+Present)</li>
 <li>Statistics for the Behavioral Sciences (<em>University of Southern
 Mississippi</em>, 2019 – 2020)</li>
 </ul>
