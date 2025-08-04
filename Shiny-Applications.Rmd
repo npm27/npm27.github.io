@@ -2,7 +2,7 @@
 
 <br>
 
-R Shiny Applications are listed below. Click the links for more information!
+**R Shiny Applications are listed below. Click the links for more information!**
 
 <br>
 
@@ -18,4 +18,8 @@ R Shiny Applications are listed below. Click the links for more information!
 
 **Affordance Norms**
 
-More info coming soon!
+This shiny application provides a searchable portal for Maxwell et al.'s (2024) affordance norms. Affordance measures include AFS (Affordance Strength) and AFP (Affordance proportion), which reflect the probability of an object eliciting a specific affordance, and AFFS (Affordance set size), which denotes the total number of affordances eliicted per cue. In addition to affordance information, the shiny application also displays lexical properties for cue words, including frequency, concreteness, length, age-of-acquisition, body-object interaction, and animacy ratings
+
+  + [Application](https://npm27.shinyapps.io/Affordance_Norms/)
+  + [Paper](https://link.springer.com/article/10.3758/s13428-024-02486-1)
+  
