@@ -14,46 +14,54 @@
 
 ### Publications
 
-<div style="text-indent: -40px; padding-left: 40px;">
+::: {style="text-indent: -40px; padding-left: 40px;"}
+#### Memory and Metamemory
 
-Brown, M., Eagan, L. E., Sacco, D. F., & **Maxwell, N. P.** (in press). Facial formidability uniquely informs perceptions of White and East Asian men parental intentions: Evidence from two samples in the United States. Scandinavian Journal of Psychology. 1-11. Available at: https://osf.io/ry2uw/
+**Maxwell, N. P.** (2025). Judgments of learning improve memory for word lists via enhanced item-specific encoding: Evidence from categorised, uncategorised, and DRM lists. *Memory 33*(4), 375-389. Available at: <https://osf.io/t453a/>
 
-Buchanan, E. M., Cuccolo, K., Coles, N. A., Heyman, T., Iyer, A., Lewis, N. A., Jr., ... **Maxwell, N. P.**, ... & Lewis, S. C. (in press). Measuring the semantic priming effect across many languages. *Nature Human Behavior*, X-XX. Available at: https://osf.io/q4fjy/
+**Maxwell, N. P.**, Huff, M. J., & Namias, J. M. (2025). Predictive alternating runs and random task-switching sequences produce dissociative switch costs in the consonant-vowel/odd-even task. *Cognitive Processing, 26*, 157-170. Available at: <https://osf.io/hzwc4/>
 
-Heyman, T., Pronnizius, E., Lewis, S. C., Acar, O. A., Adamkovič, M., Ambrosini, E., Antfolk, J., ... Maxwell, N. P., ... & Buchanan, E. M. (in press). Crowdsourcing multiverse analyses to explore the impact of different data-processing and analysis decisions: A tutorial. *Psychological Methods*, X-XX. Available at: https://osf.io/zgq5j/.
+**Maxwell, N. P.**, Cates, E. E., & Huff, M. J. (2024). Item-specific and relational encoding are effective at reducing the illusion of competence. *Psychological Research, 88*, 1023-1044. Available at: <https://osf.io/x9n4f/>
 
-**Maxwell, N. P.** (2025). Judgments of learning improve memory for word lists via enhanced item-specific encoding: Evidence from categorised, uncategorised, and DRM lists. *Memory 33*(4), 375-389. Available at: https://osf.io/t453a/
+**Maxwell, N. P.** & Huff, M. J. (2024). Judgment of learning reactivity reflects enhanced relational encoding on cued-recall but not recognition tests. *Metacognition and Learning, 19*(1), 189-113. Available at: <https://osf.io/mfbnz/>
 
-**Maxwell, N. P.**, Huff, M. J., & Namias, J. M. (2025). Predictive alternating runs and random task-switching sequences produce dissociative switch costs in the consonant-vowel/odd-even task. *Cognitive Processing, 26*, 157-170. Available at: https://osf.io/hzwc4/ 
+**Maxwell, N. P.** & Huff, M. J. (2023). Is discriminability a requirement for reactivity? Comparing the effects of mixed vs. pure list presentations on judgment of learning reactivity. *Memory & Cognition, 51*(5), 1198-1213. Available at: <https://osf.io/3fztn/>
 
-**Maxwell, N. P.**, Huff, M. J., Hajnal, A., Namias, J. M., Blau, J. J. C., Day, B., Marsh, K. M., Meagher, B. M., Shelley-Tremblay, J. F., Thomas, G. F., & Wagman, J. B. (2024). Affordance norms for 2825 concrete nouns. *Behavior Research Methods, 56*, 8480-8491. Available at: https://osf.io/68bkt/
+Huff, M.J., **Maxwell, N. P.**, & Mitchell, A. (2022). Distinctive Sans Forgetica font does not benefit memory accuracy in the DRM paradigm. *Cognitive Research: Principles and Implications, 7*(102), 1-12. Available at: <https://osf.io/am5rb/>
 
-**Maxwell, N. P.**, Cates, E. E., & Huff, M. J. (2024). Item-specific and relational encoding are effective at reducing the illusion of competence. *Psychological Research, 88*, 1023-1044. Available at: https://osf.io/x9n4f/
+**Maxwell, N. P.** & Huff, M. J. (2022). Reactivity from judgments of learning is not only due to memory forecasting: Evidence from associative memory and frequency judgments. *Metacognition and Learning, 17*(2), 589-625. Available at: <https://osf.io/8yvn3/>
 
-**Maxwell, N. P.** & Huff, M. J. (2024). Judgment of learning reactivity reflects enhanced relational encoding on cued-recall but not recognition tests. *Metacognition and Learning, 19*(1), 189-113. Available at: https://osf.io/mfbnz/
+**Maxwell, N. P.**, Perry, T., & Huff, M. J. (2022). Perceptually fluent features of study words do not inflate judgments of learning: Evidence from font size, highlights, and Sans Forgetica font type. *Metacognition and Learning, 17*(2), 293-319. Available at: <https://osf.io/3xwdr/>.
 
-**Maxwell, N. P.** & Huff, M. J. (2023). Is discriminability a requirement for reactivity? Comparing the effects of mixed vs. pure list presentations on judgment of learning reactivity. *Memory & Cognition, 51*(5), 1198-1213. Available at: https://osf.io/3fztn/
+Namias, J. M., Huff, M. J., Smith, A., & **Maxwell, N. P.** (2022). Drawing individual images benefits recognition accuracy in the DRM paradigm. *Quarterly Journal of Experimental Psychology, 75*(8), 1571-1582. Available at: <https://osf.io/r4yh9/>
 
-Huff, M.J., **Maxwell, N. P.**, & Mitchell, A. (2022). Distinctive Sans Forgetica font does not benefit memory accuracy in the DRM paradigm. *Cognitive Research: Principles and Implications, 7*(102), 1-12. Available at: https://osf.io/am5rb/
+**Maxwell, N. P.** & Huff, M. J. (2021). The deceptive nature of associative word pairs: Effects of associative direction on judgments of learning. *Psychological Research, 85*, 1757-1775. Available at: <https://osf.io/hvdma/>.
 
-**Maxwell, N. P.** & Huff, M. J. (2022). Reactivity from judgments of learning is not only due to memory forecasting: Evidence from associative memory and frequency judgments. *Metacognition and Learning, 17*(2), 589-625. Available at: https://osf.io/8yvn3/
+**Maxwell, N. P.** & Buchanan, E. M. (2020). Investigating the interaction of direct and indirect relation on memory judgments and retrieval. *Cognitive Processing, 21*(1), 41-53. Available at <https://osf.io/fcesn/>
 
-**Maxwell, N. P.**, Huff, M. J., & Buchanan, E. M. (2022). The lrd package: An R package and Shiny application for processing lexical response data. *Behavior Research Methods, 54*(4), 2001-2024. Available at: https://osf.io/admyx/
+#### Statistical Packages and Tools
 
-**Maxwell, N. P.**, Perry, T., & Huff, M. J. (2022). Perceptually fluent features of study words do not inflate judgments of learning: Evidence from font size, highlights, and Sans Forgetica font type. *Metacognition and Learning, 17*(2), 293-319. Available at: https://osf.io/3xwdr/.
+**Maxwell, N. P.**, Huff, M. J., Hajnal, A., Namias, J. M., Blau, J. J. C., Day, B., Marsh, K. M., Meagher, B. M., Shelley-Tremblay, J. F., Thomas, G. F., & Wagman, J. B. (2024). Affordance norms for 2825 concrete nouns. *Behavior Research Methods, 56*, 8480-8491. Available at: <https://osf.io/68bkt/>
 
-Namias, J. M., Huff, M. J., Smith, A., & **Maxwell, N. P.** (2022). Drawing individual images benefits recognition accuracy in the DRM paradigm. *Quarterly Journal of Experimental Psychology, 75*(8), 1571-1582. Available at: https://osf.io/r4yh9/
+**Maxwell, N. P.**, Huff, M. J., & Buchanan, E. M. (2022). The lrd package: An R package and Shiny application for processing lexical response data. *Behavior Research Methods, 54*(4), 2001-2024. Available at: <https://osf.io/admyx/>
 
-**Maxwell, N. P.** & Huff, M. J. (2021). The deceptive nature of associative word pairs: Effects of associative direction on judgments of learning. *Psychological Research, 85*, 1757-1775. Available at: https://osf.io/hvdma/.
+Buchanan, E. M., Valentine, K. D., & **Maxwell, N. P.** (2019). English semantic feature production norms: An extended database of 4,436 concepts. *Behavior Research Methods, 51*(4), 1849-1863. Available at: <https://osf.io/cjyzw/>
 
-**Maxwell, N. P.** & Buchanan, E. M. (2020). Investigating the interaction of direct and indirect relation on memory judgments and retrieval. *Cognitive Processing, 21*(1), 41-53. Available at https://osf.io/fcesn/
+Buchanan, E. M., Valentine, K. D., & **Maxwell, N. P.** (2019). LAB: Linguistic annotated bibliography – A searchable portal for normed database information. *Behavior Research Methods, 51*(4), 1878 – 1888. Available at: <https://osf.io/9bcws/>
 
-Bowman, N. A., Miller, A., Woosley, S., **Maxwell, N. P.**, & Kolze, M. J. (2019). Understanding the link between noncognitive attributes and college retention. *Research in Higher Education 60*(2), 135-152. Available at: https://link.springer.com/article/10.1007/s11162-018-9508-0
+#### Big Team Science
 
-Buchanan, E. M., Valentine, K. D., & **Maxwell, N. P.** (2019). English semantic feature production norms: An extended database of 4,436 concepts. *Behavior Research Methods, 51*(4), 1849-1863. Available at: https://osf.io/cjyzw/
+Brooks, T. R., Balzarini, R., Erickson, E. B., Hinojosa, V., Jones, A., Macchione, A., **Maxwell, N. P.**, Reyson, S., Rivers, A. S., Shelton, J., & Stocks, E. (in press). Lone star nationalism: Texan identity, negative attitudes about globalization, and concern about illegal immigration predict Texit support. Journal of Globalization Studies, X-XX.
 
-Buchanan, E. M., Valentine, K. D., & **Maxwell, N. P.** (2019). LAB: Linguistic annotated bibliography – A searchable portal for normed database information. *Behavior Research Methods, 51*(4), 1878 – 1888. Available at: https://osf.io/9bcws/
+Buchanan, E. M., Cuccolo, K., Coles, N. A., Heyman, T., Iyer, A., Lewis, N. A., Jr., ... **Maxwell, N. P.**, ... & Lewis, S. C. (in press). Measuring the semantic priming effect across many languages. *Nature Human Behavior*, X-XX. Available at: <https://osf.io/q4fjy/>
 
-Pavlacic, J. M., Buchanan, E. M., **Maxwell, N. P.**, Hopke, T., & Schulenberg, S. E. (2019). A meta-analysis of expressive writing on positive psychology variables and traumatic stress. *Review of General Psychology, 23*(2), 230-250. Available at: https://journals.sagepub.com/doi/pdf/10.1177/1089268019831645
+Heyman, T., Pronnizius, E., Lewis, S. C., Acar, O. A., Adamkovič, M., Ambrosini, E., Antfolk, J., ... Maxwell, N. P., ... & Buchanan, E. M. (in press). Crowdsourcing multiverse analyses to explore the impact of different data-processing and analysis decisions: A tutorial. *Psychological Methods*, X-XX. Available at: <https://osf.io/zgq5j/>.
 
-</div>
+#### Miscellaneous
+
+Brown, M., Eagan, L. E., Sacco, D. F., & **Maxwell, N. P.** (in press). Facial formidability uniquely informs perceptions of White and East Asian men parental intentions: Evidence from two samples in the United States. Scandinavian Journal of Psychology. 1-11. Available at: <https://osf.io/ry2uw/>
+
+Bowman, N. A., Miller, A., Woosley, S., **Maxwell, N. P.**, & Kolze, M. J. (2019). Understanding the link between noncognitive attributes and college retention. *Research in Higher Education 60*(2), 135-152. Available at: <https://link.springer.com/article/10.1007/s11162-018-9508-0>
+
+Pavlacic, J. M., Buchanan, E. M., **Maxwell, N. P.**, Hopke, T., & Schulenberg, S. E. (2019). A meta-analysis of expressive writing on positive psychology variables and traumatic stress. *Review of General Psychology, 23*(2), 230-250. Available at: <https://journals.sagepub.com/doi/pdf/10.1177/1089268019831645>
+:::
